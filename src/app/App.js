@@ -1,6 +1,6 @@
 import './App.css';
 import Header from '../header/Header';
-import PayItem from '../pay-item/PayItem';
+import PayList from '../pay-list/PayList';
 
 
 const payItems = [
@@ -17,11 +17,7 @@ function App(){
   return (
 <>
   <Header />
-  <main>
-    <div className="pay-list">
-      {payItems.map(payItem => <PayItem {...payItem}/>)}
-    </div>
-  </main>
+  <PayList payItems={payItems}/>
 </>
   )
 }
