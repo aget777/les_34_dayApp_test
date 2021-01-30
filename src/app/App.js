@@ -18,7 +18,7 @@ function App(){
             <div className="pay-item__positive">+ 3000</div>
             <div className="pay-item__negative">- 543</div>
           </div>
-          <div className="saldo">
+          <div className="pay-item__saldo">
             +2457
           </div>
       </div>
