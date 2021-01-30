@@ -19,7 +19,7 @@ function App(){
   <Header />
   <main>
     <div className="pay-list">
-      {payItems.map(payItem => <PayItem day={payItem.day} month={payItem.month} year={payItem.year} positive={payItem.positive} negative={payItem.negative}/>)}
+      {payItems.map(payItem => <PayItem {...payItem}/>)}
     </div>
   </main>
 </>
